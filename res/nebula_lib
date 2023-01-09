@@ -27,6 +27,6 @@ nebula_config() {
 }
 nebula_info() {
   scriptName="Nebula Tunnel Autoscript"
-  scriptVer=$(curl -sS ${DANSS_VPN}res/version)
+  scriptVer=$(curl -sS ${DANSS_VPN}/res/version)
   myIP4=$(curl -sS ipinfo.io/ip)
 }
